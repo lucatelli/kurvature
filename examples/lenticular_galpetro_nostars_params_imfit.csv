@@ -1,0 +1,29 @@
+# Best-fit model results for imfit 1.7.1 (OpenMP-enabled)
+# Generated on Mon Jul 27 02:05:46 2020 by the following command:
+#    imfit -c examples/lenticular_galpetro_nostars_imfit.conf examples/lenticular_galpetro_nostars.fits --psf examples/psf_efigi_s13.fits --gain 4.5 --readnoise 0.7 --max-threads 6 --save-params examples/lenticular_galpetro_nostars_params_imfit.csv --save-model examples/lenticular_galpetro_nostars_model_imfit.fits --save-residual examples/lenticular_galpetro_nostars_residual_imfit.fits --max-threads 6 --loud
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 1318.452597
+#   Reduced value: 0.001928
+#   AIC: 1346.453211
+#   BIC: 1506.551128
+
+X0		413.7657 # +/- 0.0344
+Y0		414.0215 # +/- 0.0344
+FUNCTION Sersic
+PA		55.9577 # +/- 0
+ell		   0.09 # +/- 0
+n		2.16995 # +/- 0.042842
+I_e		7.70329 # +/- 0
+r_e		6.40641 # +/- 0.035715
+
+X0		413.7585 # +/- 0.3935
+Y0		413.5765 # +/- 0.3863
+FUNCTION Sersic
+PA		129.496 # +/- 2.8049
+ell		0.105568 # +/- 0
+n		    0.8 # +/- 0
+I_e		0.220999 # +/- 0.0034693
+r_e		63.2675 # +/- 0.50079

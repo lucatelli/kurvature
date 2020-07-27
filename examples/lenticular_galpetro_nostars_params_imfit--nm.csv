@@ -1,0 +1,29 @@
+# Best-fit model results for imfit 1.7.1 (OpenMP-enabled)
+# Generated on Mon Jul 27 00:51:44 2020 by the following command:
+#    imfit -c examples/lenticular_galpetro_nostars_imfit.conf examples/lenticular_galpetro_nostars.fits --psf examples/psf_efigi_s13.fits --gain 4.5 --readnoise 0.7 --max-threads 6 --save-params examples/lenticular_galpetro_nostars_params_imfit--nm.csv --save-model examples/lenticular_galpetro_nostars_model_imfit--nm.fits --save-residual examples/lenticular_galpetro_nostars_residual_imfit--nm.fits --max-threads 6 --nm --loud
+
+# Results of fit:
+#   Algorithm: Nelder-Mead Simplex: status = 3 -- SUCCESS: ftol_rel or ftol_abs reached
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 493.733645
+#   Reduced value: 0.002881
+#   AIC: 521.736096
+#   BIC: 662.457893
+
+X0		207.4250
+Y0		207.5249
+FUNCTION Sersic
+PA		 47.742
+ell		0.190459
+n		5.65572
+I_e		2.91148
+r_e		4.62682
+
+X0		207.2955
+Y0		207.0529
+FUNCTION Sersic
+PA		132.927
+ell		0.118929
+n		 1.1985
+I_e		0.171009
+r_e		32.4413
